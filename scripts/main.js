@@ -1,18 +1,12 @@
 
-
-
-const go = (direction, mph) => {
-   let output = "The car is moving  ${direction} at ${mph} mph."
-   if (mph > 75) {
-       console.log(output, "Slow Down!")
-   }
-   else console.log(output)
-
+const evenOrOdd = (number) => {
+ if (number % 2 == 0) {
+     return 'even';
+ } else {
+     return 'odd';
+ }
 }
+
  
-go("forward", 80)
-go("backwards", 5)
-go("circles", 35)
 
-
-console.log(truck)
+console.log(evenOrOdd(7))
